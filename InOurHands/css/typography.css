@@ -1,0 +1,107 @@
+.typography p.three-col,
+.typography .three-col
+{
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	-moz-column-count: 3;
+	-moz-column-gap: 40px;
+}
+
+.four-col
+{
+	-webkit-column-count: 4;
+	-webkit-column-gap: 40px;
+	-moz-column-count: 4;
+	-moz-column-gap: 40px;
+}
+
+.three-col
+{
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	-moz-column-count: 3;
+	-moz-column-gap: 40px;
+}
+
+.two-col
+{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+}
+
+.button, .smallButton, .smallbutton  {
+	background: #000;
+	font-family: "Dev Gothic";
+	color: #FFF;
+	padding: 11px 14px;
+	text-decoration:none;
+	display:inline-block;
+	font-size:32px;
+	-webkit-font-smoothing:antialiased;
+	transition: all 0.2s;
+}
+
+.button:hover {
+	background: #FAD800;
+	color: #000;
+}
+
+.smallbutton, .smallButton, .JoinTheFightPage .button {
+	color: #000;
+	background: none !important;
+	text-decoration:none !important;
+	padding: 2px 11px; 
+	border: 2px #000 solid;
+	font-size: 18px;
+	background: none;
+	line-height: 24px;
+	margin-top:12px;
+}
+
+.smallbutton {
+	margin-right: 12px;
+}
+
+.JoinTheFightPage .button:hover, .smallbutton:hover {
+	color: #FFF;
+	background: #000 !important;
+}
+
+.JoinTheFightPage ol {
+	margin-left: 23px;
+}
+
+.subpage ul li {
+	list-style-type: disc;
+}
+
+.subpage  #Sidebar  ul li {
+	list-style-type: none;
+}
+
+.white p {
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	column-break-inside:avoid;
+}
+
+.white p strong, .white .larger p {
+	line-height: 1.3em;
+	font-size: 22px;
+	-webkit-font-smoothing:antialiased;
+	font-weight: 100;
+}
+
+.typography .left {
+	float:left;
+	margin-right:24px;
+	margin-bottom: 24px;
+}
+
+.typography h4 {
+	font-weight: bold;
+}
