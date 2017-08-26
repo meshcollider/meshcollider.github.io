@@ -1,0 +1,117 @@
+html {
+	font-family: Rockwell;
+	background: #eee; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #ECE9E6, #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #ECE9E6, #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #ECE9E6, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #ECE9E6, #FFFFFF); /* Standard syntax */
+	color: #333;
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+.subheader {
+	text-align: center;
+}
+
+body {
+	padding: 3em;
+}
+
+h1 {
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 50px;
+}
+h2 {
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+}
+p {
+	padding: 0.5em;
+    font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+code, pre {
+  margin-bottom: 30px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  font-size: 14px;
+  color: #222;
+}
+
+code {
+  padding: 0 3px;
+  background-color: #f2f2f2;
+  border: solid 1px #ddd;
+}
+
+pre {
+  padding: 20px;
+  overflow: auto;
+  color: #f2f2f2;
+  text-shadow: none;
+  background: #303030;
+}
+pre code {
+  padding: 0;
+  color: #f2f2f2;
+  background-color: #303030;
+  border: none;
+}
+
+footer p {
+	padding: 0em;
+}
+
+footer {
+	padding: 1em;
+	color: white;
+	padding-top: 0;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.3em;
+	background-color: #333; 
+	border-top: 2px solid white;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 12px;
+}
+
+.button:hover {
+	background-color: #e7e7e7;
+}
+
+p a:link, ul a:link {
+    color: #66a3ff;
+}
+p a:visited, ul a:visited {
+    color: #66a3ff;
+}
