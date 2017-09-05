@@ -74,6 +74,9 @@ pre code {
 	background-color: #303030;
 	border: none;
 }
+code a:link, code a:visited {
+	color: #f2f2f2;
+}
 
 footer p {
 	padding: 0em;
