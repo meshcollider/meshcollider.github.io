@@ -1,7 +1,7 @@
 html {
 	font-family: Rockwell;
 
-	color: #333;
+	/*color: #333;*/
 	min-height: 100%;
 }
 
@@ -10,9 +10,18 @@ header {
 	text-align: center;
 }
 
+img {
+	/*position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: right;*/
+	max-width:50%;
+}
+
+/*
 .subheader {
 	text-align: center;
-}
+}*/
 
 body {
 	padding: 3em;
@@ -112,8 +121,8 @@ footer {
 }
 
 p a:link, ul a:link {
-    color: #66a3ff;
+    color: #3470c9;
 }
 p a:visited, ul a:visited {
-    color: #66a3ff;
+    color: #3470c9;
 }
