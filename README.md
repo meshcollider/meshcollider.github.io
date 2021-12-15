@@ -1,3 +1,3 @@
-# MeshCollider.github.io
+# meshcollider.github.io
 
 Github pages site repository
